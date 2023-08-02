@@ -40,3 +40,15 @@ UPDATE Employee_PayRoll SET Gender='F' WHERE Name='Eleza' or Name='Lusi'
 or Name='Sunita' or Name='Sneha' or Name='Kiran';
 
 SELECT * FROM Employee_PayRoll;
+
+--UC7
+SELECT SUM(Salary) FROM Employee_PayRoll where Gender='M' GROUP BY Gender;
+SELECT SUM(Salary) FROM Employee_PayRoll where Gender='F' GROUP BY Gender;
+SELECT AVG(Salary) FROM Employee_PayRoll where Gender='M' GROUP BY Gender;
+SELECT AVG(Salary) FROM Employee_PayRoll where Gender='F' GROUP BY Gender;
+SELECT MAX(Salary) FROM Employee_PayRoll where Gender='M' GROUP BY Gender;
+SELECT MAX(Salary) FROM Employee_PayRoll where Gender='F' GROUP BY Gender;
+SELECT MIN(Salary) FROM Employee_PayRoll where Gender='M' GROUP BY Gender;
+SELECT MIN(Salary) FROM Employee_PayRoll where Gender='F' GROUP BY Gender;
+SELECT COUNT(Salary) FROM Employee_PayRoll where Gender='M' GROUP BY Gender;
+SELECT COUNT(Salary) FROM Employee_PayRoll where Gender='F' GROUP BY Gender;
