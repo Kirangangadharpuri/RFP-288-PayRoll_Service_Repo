@@ -21,3 +21,12 @@ VALUES('Prasad Deshamukh',30000,'2018-01-10'),
 
 --UC4
 SELECT * FROM Employee_PayRoll;
+
+
+--UC5
+SELECT Salary FROM Employee_PayRoll WHERE Name='Max';
+ 
+--SELECT Salary FROM Employee_PayRoll WHERE StartDate 
+--BETWEEN CAST('2010-04-25' AS DATE) AND DATE(NOW());
+
+
