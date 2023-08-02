@@ -40,3 +40,4 @@ UPDATE Employee_PayRoll SET Gender='F' WHERE Name='Eleza' or Name='Lusi'
 or Name='Sunita' or Name='Sneha' or Name='Kiran';
 
 SELECT * FROM Employee_PayRoll;
+
