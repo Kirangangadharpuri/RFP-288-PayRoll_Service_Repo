@@ -18,3 +18,6 @@ VALUES('Prasad Deshamukh',30000,'2018-01-10'),
 	  ('Sneha',42000,'2018-02-17'),
 	  ('Kiran',40000,'2022-05-20'),
 	  ('Cen',50000,'2020-08-10');
+
+--UC4
+SELECT * FROM Employee_PayRoll;
