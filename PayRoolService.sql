@@ -30,3 +30,13 @@ SELECT Salary FROM Employee_PayRoll WHERE Name='Max';
 --BETWEEN CAST('2010-04-25' AS DATE) AND DATE(NOW());
 
 
+--UC6
+ALTER TABLE Employee_PayRoll ADD Gender VARCHAR(1);
+
+UPDATE Employee_PayRoll SET Gender='M' WHERE Name='Prasad Deshmukh' or Name='Bill'
+or Name='Max' or Name='Rahul' or Name='Cen';
+
+UPDATE Employee_PayRoll SET Gender='F' WHERE Name='Eleza' or Name='Lusi'
+or Name='Sunita' or Name='Sneha' or Name='Kiran';
+
+SELECT * FROM Employee_PayRoll;
